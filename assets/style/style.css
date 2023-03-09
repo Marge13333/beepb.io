@@ -11,7 +11,7 @@ a{
 }
 body{
     position: relative;
-    background-color: #1F212A;
+    background-color: #FFFFFF;
 }
 /*----------header----------*/
 header{
@@ -70,11 +70,12 @@ z-index: 1;
     color: #FFFFFF;
     font-size: 13px;
     border: 1px solid #14B45C ;
-    transition: all 0.3s;
+    transition: all 0.5s;
 }
 .header-button:hover{
     background-color: transparent;
     color: #14B45C;
+    box-shadow: 20px 20px 60px #14B45C;
 
 
 }
@@ -96,10 +97,7 @@ z-index: 1;
     max-width: 1920px;
     width: 100%;
 }
-.conteiner-intro{
-    position: absolute;
-    z-index: 2;
-}
+
 .phone-front{
     position: absolute;
     top: 190px;
@@ -138,12 +136,13 @@ z-index: 1;
     background-color: #14B45C;
     padding: 15px 30px;
     border-radius: 20px;
-    transition: all .3s;
+    transition: all .5s;
     border: 1px solid #14B45C ;
 }
 .intro-button:hover{
     background-color: transparent;
     color: #14B45C;
+    box-shadow: 20px 20px 60px #14B45C;
 }
 .watch-now{
     position: absolute;
@@ -158,3 +157,145 @@ z-index: 1;
     bottom: 20px;
     color: #14B45C;
 }
+/*----------section info------------*/
+.info{
+    margin-top: 320px;
+    max-width: 1920px;
+    width: 100%;
+    height: 540px;
+}
+.conteiner-info{
+    display: flex;
+    gap: 165px;
+    justify-content: center;
+}
+.info-name{
+    text-align: center;
+}
+.box-1, .box-2, .box-3{
+    margin-top: 160px;
+    max-width: 420px;
+    height: 420px;
+    text-align: center;
+}
+.box1-name,.box2-name,.box3-name{
+    padding-top: 43px;
+    padding-bottom: 24px;
+    color: #1C1F28;
+    font-size: 24;
+}
+.box1-para,.box2-para,.box3-para{
+    max-width: 320px;
+    color: #A1A4AC;
+    font-size: 16px;
+}
+/*----------section description------------*/
+.description{
+    margin-top: 170px;
+    position: relative;
+}
+.description-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    max-width: 1920px;
+    width: 100%;
+}
+.conteiner-description{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.description-wrraper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.description-box1,.description-box2,.description-box3,.description-box4{
+   max-width: 420px;
+   height: 252px;
+   display: flex;
+   align-items: center;
+   
+}
+.description-box1_1:hover{
+background-color: #FFFFFF;
+box-shadow: 20px 20px 60px #14B45C;
+border: 1px solid #1C1F28;
+opacity: 1;
+}
+.description-box2_2:hover{
+    background-color: #FFFFFF;
+    box-shadow: 20px 20px 60px #14B45C;
+    opacity: 1;
+    border: 1px solid #1C1F28;
+    }
+    .description-box3_3:hover{
+        background-color: #FFFFFF;
+        box-shadow: 20px 20px 60px #14B45C;
+        opacity: 1;
+        border: 1px solid #1C1F28;
+        }
+        .description-box4_4:hover{
+            background-color: #FFFFFF;
+            box-shadow: 20px 20px 60px #14B45C;
+            opacity: 1;
+            border: 1px solid #1C1F28;
+            }
+
+.description-box2,.description-box4{
+padding-top: 80px;
+}
+.box-wraper1,.box-wrraper2{
+    max-width: 420px;
+    height: 584px;
+    margin-top: 100px;
+    padding: 0 70px;
+    
+}
+.description-box1_1,.description-box2_2,.description-box3_3,.description-box4_4{
+    padding: 20px;
+   transition: all 0.5s;
+   border-radius: 50px;
+   background-color: white;
+   border: 1px solid transparent;
+   cursor: pointer;
+   opacity: 0.7;
+   
+}
+.description-box_para1,.description-box_para2,.description-box_para3,.description-box_para4{
+    padding-top: 40px;
+}
+.description-box_title1,.description-box_title2,.description-box_title3,.description-box_title4{
+    font-size: 24px;
+    color: #1C1F28;
+}
+.description-box_para1,.description-box_para2,.description-box_para3,.description-box_para4{
+    font-size: 16px;
+    color:#A1A4AC ;
+}
+.apapkure{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.description-button{
+    color: #FFFFFF;
+    font-size: 16px;
+    border: 1px solid #14B45C;
+    border-radius: 16px;
+    transition: all.5s;
+    background-color: #14B45C;
+    padding:15px 45px;
+    margin-left: 30px;
+}
+.description-button:hover{
+    background-color: transparent;
+    color: #1C1F28;
+    box-shadow: 20px 20px 60px #14B45C;
+}
+/*----------section description------------*/
